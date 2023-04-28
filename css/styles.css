@@ -181,7 +181,14 @@ img {
 /* hero section*/
 
 .hero {
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: var(--color-navy-blue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/bg-hero.png);
   padding: 188px 0;
 }
 
@@ -199,14 +206,6 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* position: absolute;
-width: 496px;
-height: 120px;
-left: 472px;
-top: 260px;
-text-align: center;
- */
 
 .hero-btn {
   display: block;
@@ -280,6 +279,8 @@ text-align: center;
 
 .team-item-border {
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .desc-team-container {
@@ -380,4 +381,11 @@ text-align: center;
 
 .done-prj-element {
   flex-basis: calc((100% - 24px * 2) / 3);
+}
+
+.desc-done-prj-container:focus,
+.desc-done-prj-container:hover {
+  border: 1px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
