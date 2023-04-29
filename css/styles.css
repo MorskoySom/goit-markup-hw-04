@@ -251,6 +251,18 @@ img {
   width: 264px;
 }
 
+.icon-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  left: 0px;
+  top: 0px;
+  background: #f4f4fd;
+  border-radius: 4px;
+}
+
 /* Doings section */
 
 .doing-container {
@@ -292,7 +304,30 @@ img {
   text-align: center;
 }
 
+/* Customers section */
+
+.client-container {
+  display: flex;
+  gap: 24px;
+}
+
+.clients-item {
+  display: block;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
 /* Footer block */
+
+.footer-container {
+  display: block;
+}
+
+.footer-parts {
+  display: inline-block;
+}
 
 .logo-link-footer {
   color: var(--color-cloud);
