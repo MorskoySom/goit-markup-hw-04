@@ -322,10 +322,16 @@ img {
 /* Footer block */
 
 .footer-container {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
-.footer-parts {
+.footer-part-one {
+  display: inline-block;
+  margin-right: 120px;
+}
+
+.footer-part-two {
   display: inline-block;
 }
 
