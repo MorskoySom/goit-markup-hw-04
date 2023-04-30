@@ -102,6 +102,36 @@ img {
   color: var(--color-slate);
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris-color);
+  border-radius: 50%;
+}
+
+.social-icon {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.social-item:hover,
+.social-item:focus {
+  background-color: var(--ocean-color);
+  border-radius: 50%;
+}
+
 /* WAREHOSE */
 
 /* Header section */
@@ -276,6 +306,16 @@ img {
 
 /* Team section */
 
+.team-small-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--color-slate);
+  margin-bottom: 8px;
+}
+
 .team-container {
   display: flex;
   gap: 24px;
@@ -332,7 +372,15 @@ img {
 }
 
 .footer-part-two {
-  display: inline-block;
+  display: block;
+}
+
+.footer-small-text {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  padding-bottom: 16px;
 }
 
 .logo-link-footer {
@@ -363,6 +411,43 @@ img {
 .footer-text-size {
   width: 264px;
 }
+
+.social-item-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris-color);
+  border-radius: 50%;
+}
+
+.social-item-footer:hover,
+.social-item-footer:focus {
+  background-color: var(--color-green);
+  border-radius: 50%;
+}
+
+/* .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+
+.social-icon {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.social-item:hover,
+.social-item:focus {
+  background-color: var(--ocean-color);
+  border-radius: 50%;
+} */
 
 /* Portfolio buttons row section */
 
