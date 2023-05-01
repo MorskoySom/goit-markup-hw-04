@@ -289,7 +289,7 @@ img {
   height: 112px;
   left: 0px;
   top: 0px;
-  background: #f4f4fd;
+  background: var(--color-cloud);
   border-radius: 4px;
 }
 
@@ -362,15 +362,31 @@ img {
 }
 
 .client-item-container {
-  display: block;
+  display: flex;
   width: 104px;
   height: 56px;
 }
 
-.clients-item-active:hover,
-.clients-item-active:focus {
+.color-clients {
+  fill: var(--color-light-slate);
+}
+
+.color-clients:hover,
+.color-clients:focus {
   fill: var(--ocean-color);
 }
+
+.clients-item:hover,
+.clients-item:focus {
+  border: 1px solid var(--ocean-color);
+  border-radius: 4px;
+}
+
+/* .social-item-footer:hover,
+.social-item-footer:focus {
+  background-color: var(--color-green);
+  border-radius: 50%;
+} */
 
 /* Footer block */
 
@@ -440,27 +456,6 @@ img {
   background-color: var(--color-green);
   border-radius: 50%;
 }
-
-/* .socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-}
-
-
-.social-icon {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  padding: 12px;
-}
-
-.social-item:hover,
-.social-item:focus {
-  background-color: var(--ocean-color);
-  border-radius: 50%;
-} */
 
 /* Portfolio buttons row section */
 
