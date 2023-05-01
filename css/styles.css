@@ -443,6 +443,8 @@ img {
   color: var(--color-cloud);
 }
 .footer-color {
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: var(--color-navy-blue);
 }
 
