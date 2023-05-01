@@ -395,8 +395,8 @@ img {
   fill: var(--ocean-color);
 } */
 
-.clients-item:hover,
-.clients-item:focus {
+.client-link-active:hover,
+.client-link-active:focus {
   border-color: var(--ocean-color);
   color: var(--ocean-color);
 }
@@ -446,6 +446,13 @@ img {
 
 .footer-pos {
   padding: 100px 0;
+}
+
+.socials-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 .footer-link-status {
