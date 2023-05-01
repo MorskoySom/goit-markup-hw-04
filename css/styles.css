@@ -68,6 +68,8 @@ img {
   border-width: 0 0 1px 0;
   border-style: solid;
   border-color: var(--color-cornflower);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .headlines {
@@ -100,36 +102,6 @@ img {
   text-decoration: none;
   text-transform: none;
   color: var(--color-slate);
-}
-
-.socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-}
-
-.social-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background-color: var(--iris-color);
-  border-radius: 50%;
-}
-
-.social-icon {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  padding: 12px;
-}
-
-.social-item:hover,
-.social-item:focus {
-  background-color: var(--ocean-color);
-  border-radius: 50%;
 }
 
 /* WAREHOSE */
@@ -220,6 +192,9 @@ img {
     ),
     url(../images/hero/bg-hero.png);
   padding: 188px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-headline {
@@ -291,6 +266,7 @@ img {
   top: 0px;
   background: var(--color-cloud);
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 /* Doings section */
@@ -339,9 +315,39 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 32px 16px;
+  padding: 32px 0;
   gap: 8px;
   text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris-color);
+  border-radius: 50%;
+}
+
+.social-icon {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.social-item:hover,
+.social-item:focus {
+  background-color: var(--ocean-color);
+  border-radius: 50%;
 }
 
 /* Customers section */
@@ -381,12 +387,6 @@ img {
   border: 1px solid var(--ocean-color);
   border-radius: 4px;
 }
-
-/* .social-item-footer:hover,
-.social-item-footer:focus {
-  background-color: var(--color-green);
-  border-radius: 50%;
-} */
 
 /* Footer block */
 
