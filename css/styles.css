@@ -70,14 +70,6 @@ img {
   border-color: var(--color-cornflower);
   max-width: 1440px;
   margin: 0 auto;
-}
-
-.header-border-portfolio {
-  border-width: 0 0 1px 0;
-  border-style: solid;
-  border-color: var(--color-cornflower);
-  max-width: 1440px;
-  margin: 0 auto;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
