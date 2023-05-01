@@ -327,6 +327,10 @@ img {
   gap: 24px;
 }
 
+.social-icon {
+  fill: var(--color-cloud);
+}
+
 .social-link {
   display: flex;
   justify-content: center;
@@ -396,6 +400,7 @@ img {
 .footer-container {
   display: flex;
   justify-content: center;
+  align-items: baseline;
 }
 
 .footer-part-one {
@@ -413,6 +418,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--white-color);
   padding-bottom: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
 }
 
 .logo-link-footer {
@@ -452,6 +459,7 @@ img {
   height: 40px;
   background-color: var(--iris-color);
   border-radius: 50%;
+  gap: 16px;
 }
 
 .social-link-footer {
