@@ -378,7 +378,7 @@ img {
   border-radius: 4px;
 }
 
-.client-item-container {
+.client-item-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -387,6 +387,7 @@ img {
   width: 100%;
   height: 100%;
   fill: var(--color-light-slate);
+  color: var(--color-light-slate);
 }
 
 .color-clients {
